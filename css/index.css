@@ -26,6 +26,8 @@ body {
 .icon{
 	display: block;
 	padding: .5em;
+	text-decoration: none;
+	color: grey;
 }
 .module {
 	border: 1px solid black;
@@ -33,8 +35,32 @@ body {
 	text-align: center;
 	margin-left: .5em;
 	max-width: 10em;
+	position: relative;
+
+	margin-top: 1em;
 }
 
 .app {
 	border: 1px solid black;
 	max-width: 50em;
+
+	/*background-image: url(../images/drawing.jpg);*/
+	background-repeat:  no-repeat;
+	height: 50em;
+	position: relative;
+}
+
+.drawing {
+	position: absolute;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	top: 10%;
+
+}
+
+.heading {
+background-color: grey;
+margin: 0;
+
+}
