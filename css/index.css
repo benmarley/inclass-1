@@ -11,8 +11,30 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+
+	font-family: sans-serif;	
+}
+
+body {
+	text-align: center;
 }
 
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
+.icon{
+	display: block;
+	padding: .5em;
+}
+.module {
+	border: 1px solid black;
+	width: 2em;
+	text-align: center;
+	margin-left: .5em;
+	max-width: 10em;
+}
+
+.app {
+	border: 1px solid black;
+	max-width: 50em;
