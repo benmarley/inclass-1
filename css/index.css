@@ -17,6 +17,7 @@ html {
 
 body {
 	text-align: center;
+	cursor: crosshair
 }
 
 *, *:before, *:after {
@@ -63,4 +64,20 @@ body {
 background-color: grey;
 margin: 0;
 
+}
+
+.brush {
+	cursor: url(../images/paintbrush-head.svg), auto;
+}
+
+.pencil {
+	cursor: url(../images/pencil-head.svg), auto;;
+}
+
+.eraser {
+	cursor: url(../images/eraser.svg), auto;;
+}
+
+.line {
+	cursor: url(../images/line.svg), auto;;
 }
