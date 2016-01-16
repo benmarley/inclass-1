@@ -16,7 +16,7 @@ html {
 }
 
 body {
-	text-align: center;
+	
 	cursor: crosshair
 }
 
@@ -28,10 +28,11 @@ body {
 	display: block;
 	padding: .5em;
 	text-decoration: none;
-	color: grey;
+	color: #484848;
+	border-bottom: 1px dotted #484848;
 }
 .module {
-	border: 1px solid black;
+	border: 2px solid #484848;
 	width: 2em;
 	text-align: center;
 	margin-left: .5em;
@@ -39,32 +40,45 @@ body {
 	position: relative;
 
 	margin-top: 1em;
+	border-top: 10px solid #484848;
 }
 
 .app {
-	border: 1px solid black;
+	border: 3px solid #484848;
 	max-width: 50em;
+	border-radius: 10px;
 
 	/*background-image: url(../images/drawing.jpg);*/
 	background-repeat:  no-repeat;
-	height: 50em;
+	height: 40em;
 	position: relative;
+
+	text-align: center;
 }
 
 .drawing {
 	position: absolute;
-	left: 0;
+	right: 4%;
 	z-index: -1;
 	width: 100%;
-	top: 10%;
+	top: 15%;
 
 }
 
 .heading {
-background-color: grey;
-margin: 0;
+	background-color: #484848;
+	margin: 0;
+	padding: .3em;
+	border-radius: 7px 7px 0px 0px;
+
+	color: white;
+}
+
+.instruction {
+	font-size: 60%;
 
 }
+
 
 .brush {
 	cursor: url(../images/paintbrush-head.svg), auto;
